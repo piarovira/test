@@ -32,7 +32,7 @@
 	},
 	"scripts": {
 		"start": "node-env-run server --exec nodemon | pino-colada",
-		"build": "react-scripts build",
+		"build": "node-env-run server --exec nodemon | pino-colada",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"server": "node-env-run server --exec nodemon | pino-colada",
